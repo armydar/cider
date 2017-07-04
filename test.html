@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cider project</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<style>
+.border{
+	
+
+	/*border: 1px solid red;*/
+	padding: 0px;
+	border-top: 30px;
+	margin-left: 0px;
+}
+
+.container-fluid{
+	padding: 0px;
+	margin: 0px;
+}
+
+.image{
+	margin: 0px;
+}
+#myCarousel{
+	margin: 0px;
+	padding: 0px;
+}
+/*.container-fluid{
+	padding: 0px;
+}*/
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  float: right;
+
+	text-align: right;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff \9;
+  background-color: #fff;
+  border: 1px solid yellow;
+  border-radius: 15px;
+}
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  background-color: yellow;
+}
+
+.item h4{
+	margin-top: 150px;
+	direction : rtl;
+
+}
+
+</style>
+</head>
+<body style="background-color: black">
+
+<nav class="nav navbar navbar-static-top bg">
+    <div class="container-fluid" >
+      <div class="navbar-header">
+      	 <a href="#" class="navbar-brand"> <img src="images/logo.png" ></a>
+      </div>
+	   <ul class="my-navbar navbar-right ">
+	      <li><a href="Vender.html">Vender</a></li>
+	      <li><a href="Values.html"><li>Values</a></li>
+	      <li><a href="OurInvestors.html">Our Investors</a></li>
+	      <li><a href="CiderCredit.html">Cider Credit</a></li>
+	      <li><a href="CiderID.html">Cider ID</a></li>
+	   </ul>
+    </div>	
+  </nav>
+<div class="container-fluid"  >
+<!--  <div class="row">  -->
+ 	<!-- <div class="col-md-12 border" style="padding: 0px;">
+ -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+	        <ol class="carousel-indicators">
+	         <li data-target="#myCarousel" data-slide-to="0" class="active" style="color: yelllow"></li>
+	         <li data-target="#myCarousel" data-slide-to="1"></li>
+	         <li data-target="#myCarousel" data-slide-to="2"></li>
+	        </ol>
+
+         <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+               <div class="item active text-center"  style="padding: 0px;" >
+
+ 
+
+		      		<div class="col-md-8">
+		        		<img src="images/penguins.jpg" class="image" alt="New york" style="width:100%;">
+		        	</div>
+
+		            <div class="desc col-md-3 ">
+				       <img src="images/logo.png" width="42" height="42" ><br/>
+				       <small><em style="color: #fff;"><q>get word out</q></em></small>
+
+				        <span style="text-align: right;">
+				    	<h4 style="color: yellow;"> A social network<br/> that connects you<br/> with everyone in<br/> your location</h4>
+
+				    	<h4 style="color: #fff;">reach out to<br/> people and businesses around you</h4>
+				       </span>
+		            </div>
+                </div>
+
+	            <div class="item 2">
+		            <div class="col-md-8">
+			        	<img src="images/tulips.jpg" alt="New york" style="width:100%;">
+			        </div>
+
+			        <div class="col-md-3 " >
+			           <img src="images/logo.png" width="42" height="42" style="margin:50px; border: 1px solid red;">
+			          <span style="color: #fff">
+			        	<h4><q> .discover interesting<br/> content nearby.</q></h4>
+			        	<h4>know what's happening<br/> and interact</h4>
+			          </span>
+			        </div>
+                </div>
+                 
+                <div class="item 3"> 
+                     <div class="col-md-8">
+	        		   <img src="images/tulips.jpg" alt="New york" style="width:100%;">
+	        	     </div>
+                
+				    <div class="desc col-md-3 " >
+				        <img src="images/logo.png" width="42" height="42" style="margin:80px; border: 1px solid red;">
+				         <span style="color: #fff">
+				           <h4> <q>....get paid</q></h4>
+				           <h4>!pay people around you</h4>
+				         </span>
+				    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    <!-- </div> -->
+ <!-- </div> --> 
+</div> <!-- end container !-->
+
+ 
+       
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+$('.carousel').carousel();
+</script>
+
+</body>
+</html>

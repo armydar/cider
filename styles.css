@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+a{
+	text-decoration-style: none;
+	text-decoration: none;
+	color: #7e7d7e;
+	font-weight: lighter;
+
+	
+}
+
+
+
+a:link{
+  text-decoration: none ;
+}
+.my-navbar{
+	font-size: 12px;
+/*	padding: 10px;*/
+    margin: 0px;
+}
+  .my-bar{
+       padding: : 30px;
+       margin: 20px;
+       color: black;
+	}
+a: hover{
+	color: #333;
+	
+}
+body{
+	background-color: black;
+}
+
+.navbar ul{
+	margin: 10px;
+	margin-top: 20px;
+}
+
+.navbar  ul li{
+	display: inline;
+	padding-left: 30px;
+	list-style: none;
+	font-weight: lighter;
+}
+
+.navbar ul li a{
+	color: #fff;
+	font-weight: lighter;
+	font-family: 'Lora', serif;
+	font-size: 1.2em;
+
+}
+
+
+.nav .navbar {
+	background-color: cornflowerblue; 
+}
+
+nav {
+	background-color: cornflowerblue; 
+	height: 80px;
+	padding: 10px;
+}
+
+p{
+	color: #eeff33;
+}
+.pay{
+	padding-top: 130px;
+}
+.ciderCredit{
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: black;
+	padding-bottom: 30px;
+}
+.navbar-brand img{
+	margin-top: 0px;
+	width: 30%;
+	margin-left: 20px;
+}
+#name{
+	color: white;
+	font-family: verdana, sans-serif;
+	font-size: 7.0em;
+}
+
+#pa{
+  color: yellow;
+  font-size: 1.2em;
+}
+#pg{
+	color: yellow;
+	font-size: 1.2em;
+	padding: 5px;
+}
+#pw{
+	color: white;
+	font-size: 1.3em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.welcomePage{
+	color: white;
+}
+.main{
+	margin-left: 100px;
+	margin-top: 150px;
+
+
+
+
+}
